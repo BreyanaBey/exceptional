@@ -18,10 +18,16 @@ nav {
     padding: 28px 0;
 }
 
+nav a, footer a, nav a:visited, footer a:visited {
+    text-decoration: none;
+}
+
 .logo {
     font-family: 'Varela Round', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
+    text-decoration: none;
+    color: black;
 }
 
 .links a {
@@ -37,7 +43,7 @@ nav {
     align-items: center;
 }
 
-.registrationButtons button:first-child {
+.registrationButtons a button:first-child {
     color: black;
     background-color: white;
     border: none;
@@ -46,7 +52,7 @@ nav {
     padding-right: 20px;
 }
 
-.registrationButtons button:last-child, .heroText button {
+.registrationButtons a:last-child button, .heroText button, .secondCta button, form button {
     color: white;
     background-color: black;
     font-weight: 700;
@@ -66,6 +72,7 @@ footer {
 .reverseLogo {
     font-family: 'Varela Round', sans-serif;
     color: white;
+    text-decoration: none;
 }
 
 .columns2 {
@@ -182,16 +189,6 @@ footer {
 .secondCta h3 {
     font-size: 24px;
     font-weight: 700;
-}
-
-.secondCta button {
-    color: white;
-    background-color: black;
-    font-weight: 700;
-    border-radius: 50px;
-    border: black;
-    padding: 9px 20px;
-    font-size: 12px;
 }
 
 .footerLinks a{

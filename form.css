@@ -1,0 +1,48 @@
+.flexWrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    background-color: white;
+    filter: drop-shadow(8px -6px 2px rgb(217,217,217));
+    filter: drop-shadow(0 4mm 2mm rgb(177, 177, 177));
+    border-radius: 8px;
+    max-width: 80%;
+    padding: 10% 12%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputItem {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input {
+    font-size: 16px;
+    padding: 8px 4px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 4px;
+    margin: 8px 0;
+}
+
+form button {
+    margin-top: 16px;
+    width: 90%;
+    font-size: 16px;
+}
