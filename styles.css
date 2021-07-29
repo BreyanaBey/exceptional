@@ -63,6 +63,36 @@ nav a, footer a, nav a:visited, footer a:visited {
     font-size: .75em;
 }
 
+.hamburgerMenuIcon {
+    display: none;
+    opacity: 0;
+}
+
+.menu {
+    position: absolute;
+    right: 14vw;
+    top: 4em;
+    width: 30%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: .5rem;
+    padding: 2em 0;
+    transition: all ease-in 0.5s;
+}
+
+.menuToggle {
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 1em 0;
+    font-size: 1em;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -201,6 +231,30 @@ footer {
     font-size: .75em;
     padding-left: 1.25em;
     text-decoration: none;
+}
+
+/* .menuToggle {
+    opacity: 100;
+    display: flex;
+} */
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 850px) {
+    .links a {
+        display: none;
+    }
+    .registrationButtons {
+        display: none;
+    }
+    .hamburgerMenuIcon {
+        opacity: 100;
+        display: flex;
+    }
 }
 
 
