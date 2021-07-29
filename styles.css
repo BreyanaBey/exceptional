@@ -233,10 +233,11 @@ footer {
     text-decoration: none;
 }
 
-/* .menuToggle {
-    opacity: 100;
-    display: flex;
-} */
+@media (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+}
 
 @media (max-width: 600px) {
     body {
