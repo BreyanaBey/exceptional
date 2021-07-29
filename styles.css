@@ -78,7 +78,7 @@ nav a, footer a, nav a:visited, footer a:visited {
     align-items: center;
     background-color: white;
     border-radius: .5rem;
-    padding: 2em 0;
+    padding: 2em;
     transition: all ease-in 0.5s;
 }
 
@@ -89,7 +89,7 @@ nav a, footer a, nav a:visited, footer a:visited {
 .menu a {
     text-decoration: none;
     color: black;
-    padding: 1em 0;
+    padding: 1em;
     font-size: 1em;
 }
 
