@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;600;700;800;900&family=Varela+Round&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    padding: 0 16vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 0;
+}
+
+.logo {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.links a {
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.registrationButtons {
+    display: flex;
+    align-items: center;
+}
+
+.registrationButtons button:first-child {
+    color: black;
+    background-color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.registrationButtons button:last-child, .heroText button {
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    border-radius: 50px;
+    border: black;
+    padding: 9px 20px;
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 16vw;
+}
+
+.reverseLogo {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+.columns2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.heroText h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+
+}
+
+.heroText h1 span {
+    font-weight: 800;
+}
+
+.heroText p {
+    font-weight: 300;
+}
+
+.center {
+    text-align: center;
+}
+
+.center h1 {
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.center .firstParagraph {
+    padding: 0 150px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.grid {
+    display: flex;
+    padding: 7% 0;
+    margin-bottom: 5%;
+}
+
+.grid img {
+    width: auto;
+    height: 40px;
+}
+
+.grid p {
+    font-size: 12px;
+}
+
+.columns2 h3 {
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.columns2 h3 span {
+    font-weight: 800;
+}
+
+.subHeadingText:first-of-type:first-child {
+    padding-right: 10%;
+}
+
+.columns2 .subHeadingText p {
+    font-weight: 300;
+}
+
+.columns2 .marginRight {
+    margin-right: 20%;
+}
+
+.columns2 .marginLeft {
+    margin-left: 10%;
+}
+
+.boldFont {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.secondaryCta {
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.secondaryCta img {
+    width: 15px;
+    height: auto;
+    padding-left: 7px;
+}
+
+.secondCta {
+    text-align: center;
+    background-color: #8469f3;
+    padding: 3% 0;
+    color: white;
+}
+
+.secondCta h4 {
+    font-family: 'montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.secondCta h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.secondCta button {
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    border-radius: 50px;
+    border: black;
+    padding: 9px 20px;
+    font-size: 12px;
+}
+
+.footerLinks a{
+    color: white;
+    font-size: 12px;
+    padding-left: 20px;
+    text-decoration: none;
+}
