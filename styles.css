@@ -5,6 +5,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
 }
 
 .container {
@@ -15,7 +16,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 28px 0;
+    padding: 1.75em 0;
 }
 
 nav a, footer a, nav a:visited, footer a:visited {
@@ -24,7 +25,7 @@ nav a, footer a, nav a:visited, footer a:visited {
 
 .logo {
     font-family: 'Varela Round', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
     text-decoration: none;
     color: black;
@@ -32,9 +33,9 @@ nav a, footer a, nav a:visited, footer a:visited {
 
 .links a {
     color: black;
-    font-size: 12px;
+    font-size: .75em;
     font-weight: 700;
-    padding-left: 20px;
+    padding-left: 1.25em;
     text-decoration: none;
 }
 
@@ -48,7 +49,7 @@ nav a, footer a, nav a:visited, footer a:visited {
     background-color: white;
     border: none;
     font-weight: 700;
-    font-size: 12px;
+    font-size: .75em;
     padding-right: 20px;
 }
 
@@ -58,15 +59,15 @@ nav a, footer a, nav a:visited, footer a:visited {
     font-weight: 700;
     border-radius: 50px;
     border: black;
-    padding: 9px 20px;
-    font-size: 12px;
+    padding: .5625em 1.25em;
+    font-size: .75em;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
     background-color: black;
-    padding: 20px 16vw;
+    padding: 1.25em 16vw;
 }
 
 .reverseLogo {
@@ -83,7 +84,7 @@ footer {
 
 .heroText h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 38px;
+    font-size: 2.375em;
     font-weight: 600;
 
 }
@@ -102,14 +103,14 @@ footer {
 
 .center h1 {
     font-weight: 900;
-    padding-bottom: 10px;
+    padding-bottom: .625em;
 }
 
 .center .firstParagraph {
-    padding: 0 150px;
+    padding: 0 9.375em;
     font-family: 'montserrat', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: .75em;
 }
 
 .grid {
@@ -118,18 +119,22 @@ footer {
     margin-bottom: 5%;
 }
 
+.gridItem {
+    padding: 0 .5em;
+}
+
 .grid img {
     width: auto;
-    height: 40px;
+    height: 2.5em;
 }
 
 .grid p {
-    font-size: 12px;
+    font-size: .75em;
 }
 
 .columns2 h3 {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 1.75;
     font-family: 'montserrat', sans-serif;
 }
 
@@ -155,7 +160,7 @@ footer {
 
 .boldFont {
     font-weight: 900;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .secondaryCta {
@@ -169,7 +174,7 @@ footer {
 .secondaryCta img {
     width: 15px;
     height: auto;
-    padding-left: 7px;
+    padding-left: .4375em;
 }
 
 .secondCta {
@@ -182,18 +187,86 @@ footer {
 .secondCta h4 {
     font-family: 'montserrat';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125em;
     margin-bottom: 0;
 }
 
 .secondCta h3 {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
 .footerLinks a{
     color: white;
-    font-size: 12px;
-    padding-left: 20px;
+    font-size: .75em;
+    padding-left: 1.25em;
     text-decoration: none;
+}
+
+
+@media (max-width: 956px) {
+    .columns2, .grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        padding: .5em 0;
+    }
+    .heroImg {
+        height: 20em;
+        width: auto;
+    }
+    .heroText {
+        padding: 0 4em;
+    }
+    .first {
+        order: 1;
+    }
+    .second {
+        order: 2;
+    }
+    .center .firstParagraph {
+        padding: 0 6em;
+    }
+    .subHeadingText {
+        margin-bottom: 1em;
+    }
+    .scaleImg {
+        height: 15em;
+        width: auto;
+        padding-left: 12em;
+    }
+    .colorPink {
+        background-color: #FEF8F8;
+    }
+    .addPadding {
+        padding: 0 4em;
+    }
+    .addPaddingTB {
+        padding: 4em 0;
+    }
+    .subHeadingText.second h3, .subHeadingText.second p{
+        text-align: right;
+    }
+    .subHeadingText.second button {
+        padding-left: 1.5em;
+    }
+}
+
+@media (min-width: 1500px) {  
+    body {
+        font-size: 20px
+    }
+}
+
+@media (min-width: 1800px) {  
+    body {
+        font-size: 24px
+    }
+    .container {
+        padding: 0 24vw;
+    }
+    footer {
+        padding: 1.25em 24vw;
+    }
 }
