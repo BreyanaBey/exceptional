@@ -240,6 +240,9 @@ footer {
     .container {
         padding: 0 4vw;
     }
+    nav {
+        padding: 0 4vw;
+    }
     footer {
         padding: 1.25em 4vw;
     }
