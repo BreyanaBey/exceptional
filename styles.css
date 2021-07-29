@@ -233,9 +233,19 @@ footer {
     text-decoration: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     body {
         font-size: 12px;
+    }
+    .container {
+        padding: 0 4vw;
+    }
+    footer {
+        padding: 1.25em 4vw;
+    }
+    .resizeRatingImg {
+        width: 100%;
+        height: auto;
     }
 }
 
